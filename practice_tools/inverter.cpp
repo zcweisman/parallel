@@ -154,7 +154,7 @@ int main (int argc, char** argv) {
 			// Reset pixel data
 			p = {0, 0, 0}; 
 			// Find the pixels around the current one
-			getSurroundingRGB(edgeArray, image, i);
+			getSurroundingRGB(edgeArray, image, i/3);
 			if (edgeValue(edgeArray) > edge) {
 				// Higher than threshold -> white
 				p.blue = 255;
