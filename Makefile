@@ -5,3 +5,6 @@ LIBS=-I/usr/local/include/opencv -I/usr/local/include/opencv2 -L/usr/local/lib/ 
 
 linux:
 	$(CC) $(CFLAGS) ./practice_tools/inverter.cpp $(LIBS)
+
+camera:
+	$(CC) $(CFLAGS) ./practice_tools/camerafeed.cpp $(LIBS)
