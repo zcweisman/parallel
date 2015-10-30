@@ -48,7 +48,7 @@ int main (int argc, char** argv) {
 			break;
         case 't': 
 			flags[THRESH] = true;
-			if (sscanf(argv[++option], "%d", &threshold) < 1) {
+			if (sscanf(argv[++option], "%ud", &threshold) < 1) {
 				fprintf(stderr, "Invalid argument for -t\n");
 				return -1;
 			}
@@ -56,7 +56,7 @@ int main (int argc, char** argv) {
 			break;
         case 'e': 
 			flags[EDGE] = true;
-			if (sscanf(argv[++option], "%d", &edge) < 1) {
+			if (sscanf(argv[++option], "%ud", &edge) < 1) {
 				fprintf(stderr, "Invalid argument for -e\n");
 				return -1;
 			}
@@ -74,11 +74,10 @@ int main (int argc, char** argv) {
 		edge = maxThresh;
 	}
 	
-	if (flags[GRAY]) {
+	if (flags[GRAY])
 		image = imread("./mona-lisa.jpg", CV_LOAD_IMAGE_GRAYSCALE);
-	} else {
-		image = imread("./mona-lisa.jpg", CV_LOAD_IMAGE_COLOR);	
-	}
+	else
+		image = imread("./mona-lisa.jpg", CV_LOAD_IMAGE_COLOR);
 
 	if (!image.data) {
 		fprintf(stderr, "No image data\n");
