@@ -1,0 +1,231 @@
+%CPU COMMAND
+ 0.9 /sbin/init
+ 0.0 [kthreadd]
+ 0.0 [ksoftirqd/0]
+ 0.0 [kworker/0:0H]
+ 0.0 [migration/0]
+ 0.0 [rcu_preempt]
+ 0.0 [rcu_bh]
+ 0.0 [rcu_sched]
+ 0.0 [watchdog/0]
+ 0.0 [watchdog/1]
+ 0.0 [migration/1]
+ 0.0 [ksoftirqd/1]
+ 0.0 [kworker/1:0]
+ 0.0 [kworker/1:0H]
+ 0.0 [watchdog/2]
+ 0.0 [migration/2]
+ 0.0 [ksoftirqd/2]
+ 0.0 [kworker/2:0]
+ 0.0 [kworker/2:0H]
+ 0.0 [watchdog/3]
+ 0.0 [migration/3]
+ 0.0 [ksoftirqd/3]
+ 0.0 [kworker/3:0]
+ 0.0 [kworker/3:0H]
+ 0.0 [khelper]
+ 0.0 [kdevtmpfs]
+ 0.0 [kworker/2:1]
+ 0.0 [irq/80-soctherm]
+ 0.0 [irq/83-soctherm]
+ 0.0 [writeback]
+ 0.0 [bioset]
+ 0.0 [kblockd]
+ 0.0 [ata_sff]
+ 0.0 [khubd]
+ 0.0 [irq/118-as3722]
+ 0.0 [devfreq_wq]
+ 0.0 [nvmap-bz]
+ 0.0 [rpciod]
+ 0.0 [host_syncpt]
+ 0.0 [kswapd0]
+ 0.0 [ksmd]
+ 0.0 [fsnotify_mark]
+ 0.0 [nfsiod]
+ 0.0 [crypto]
+ 0.0 [kworker/u9:0]
+ 0.0 [tegradc.0/a]
+ 0.0 [tegradc.0/b]
+ 0.0 [tegradc.0/c]
+ 0.0 [tegradc.0/d]
+ 0.0 [tegradc.0/e]
+ 0.0 [irq/105-tegradc]
+ 0.0 [irq/288-tegradc]
+ 0.0 [tegradc.1/a]
+ 0.0 [tegradc.1/b]
+ 0.0 [tegradc.1/c]
+ 0.0 [tegradc.1/d]
+ 0.0 [tegradc.1/e]
+ 0.0 [irq/106-tegradc]
+ 0.0 [irq/189-gk20a_s]
+ 0.0 [irq/190-gk20a_n]
+ 0.0 [nct72]
+ 0.0 [scsi_eh_0]
+ 0.0 [scsi_eh_1]
+ 0.0 [kworker/u8:2]
+ 0.0 [spi0]
+ 0.0 [spi3]
+ 0.0 [icfb-kthread]
+ 0.0 [kworker/3:2]
+ 0.9 [cfinteractive]
+ 0.0 [irq/347-mmc1]
+ 0.0 [hd-audio0]
+ 0.1 [mmcqd/0]
+ 0.0 [mmcqd/0rpmb]
+ 0.0 [irq/77-tegra_ac]
+ 0.0 [irq/77-tegra_ac]
+ 0.1 [irq/77-tegra_mo]
+ 0.0 [deferwq]
+ 0.0 [jbd2/mmcblk0p1-]
+ 0.0 [ext4-dio-unwrit]
+ 0.0 [kworker/0:1H]
+ 0.0 upstart-udev-bridge --daemon
+ 0.0 rpc.idmapd
+ 0.0 dbus-daemon --system --fork
+ 0.0 /lib/systemd/systemd-udevd --daemon
+ 0.0 [kworker/2:1H]
+ 0.0 /usr/sbin/bluetoothd
+ 0.0 /lib/systemd/systemd-logind
+ 0.0 [krfcommd]
+ 0.0 rsyslogd
+ 0.0 [kworker/1:2]
+ 0.0 /usr/sbin/cupsd -f
+ 0.0 avahi-daemon: running [master.local]
+ 0.0 avahi-daemon: chroot helper
+ 0.0 [kworker/3:1H]
+ 0.0 [kworker/1:1H]
+ 0.0 /usr/sbin/ModemManager
+ 0.0 /usr/lib/cups/notifier/dbus dbus:// 
+ 0.0 /usr/lib/cups/notifier/dbus dbus:// 
+ 0.0 /usr/lib/cups/notifier/dbus dbus:// 
+ 0.0 /usr/sbin/cups-browsed
+ 0.0 NetworkManager
+ 0.0 /sbin/getty -8 38400 tty4
+ 0.0 /sbin/getty -8 38400 tty5
+ 0.0 /sbin/getty -8 38400 tty2
+ 0.0 /sbin/getty -8 38400 tty3
+ 0.0 /sbin/getty -8 38400 tty6
+ 0.0 /usr/sbin/sshd -D
+ 0.0 anacron -s
+ 0.0 cron
+ 0.0 /usr/sbin/kerneloops
+ 0.0 lightdm
+ 0.1 /usr/lib/policykit-1/polkitd --no-debug
+ 0.0 whoopsie
+ 8.3 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ 0.0 /usr/lib/accountsservice/accounts-daemon
+ 0.0 /bin/sh /home/ubuntu/report_ip_to_host.sh
+ 0.0 /sbin/getty -8 38400 tty1
+ 0.0 /bin/login -f       
+ 0.0 -bash
+ 0.0 rpcbind
+ 0.0 rpc.statd -L
+ 0.0 upstart-socket-bridge --daemon
+ 0.0 upstart-file-bridge --daemon
+ 0.0 lightdm --session-child 12 19
+ 0.0 /usr/lib/upower/upowerd
+ 0.0 /usr/lib/rtkit/rtkit-daemon
+ 0.0 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-16d1bf7e-43d6-4e7b-aec7-6f29345c01f2-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+ 0.0 /usr/lib/colord/colord
+ 0.2 [kworker/0:3]
+ 0.0 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+ 0.1 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 117:123
+ 0.0 sshd: ubuntu [priv] 
+ 0.0 sshd: ubuntu [priv] 
+ 0.3 sshd: ubuntu@pts/12 
+ 0.0 sshd: ubuntu@notty  
+ 0.0 /usr/lib/openssh/sftp-server
+ 0.0 -bash
+ 0.0 [nfsd4]
+ 0.0 [nfsd4_callbacks]
+ 0.0 [lockd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 [nfsd]
+ 0.0 /usr/sbin/rpc.mountd --manage-gids
+ 0.0 /bin/sh /home/ubuntu/report_ip_to_host.sh
+ 0.0 /bin/sh -c run-parts --report /etc/cron.daily
+ 0.0 run-parts --report /etc/cron.daily
+ 0.0 /bin/sh /etc/cron.daily/apt
+ 0.0 sleep 1065
+ 0.0 [kworker/1:1]
+ 0.0 /usr/bin/gnome-keyring-daemon --daemonize --login
+ 0.0 init --user
+ 0.1 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-0Deo3qLs0F
+ 0.0 upstart-event-bridge
+ 0.0 /usr/lib/arm-linux-gnueabihf/hud/window-stack-bridge
+ 0.0 upstart-dbus-bridge --daemon --session --user --bus-name session
+ 0.0 upstart-dbus-bridge --daemon --system --user --bus-name system
+ 0.0 upstart-file-bridge --daemon --user
+ 0.1 /usr/bin/ibus-daemon --daemonize --xim
+ 0.1 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ 0.0 /usr/lib/arm-linux-gnueabihf/hud/hud-service
+ 0.0 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+ 0.0 gnome-session --session=ubuntu
+ 0.0 /usr/lib/gvfs/gvfsd
+ 0.0 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ 0.1 /usr/lib/unity/unity-panel-service
+ 0.0 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ 0.0 /usr/lib/ibus/ibus-dconf
+ 0.1 /usr/lib/ibus/ibus-ui-gtk3
+ 0.0 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 0.0 /usr/lib/ibus/ibus-x11 --kill-daemon
+ 0.1 /usr/lib/arm-linux-gnueabihf/bamf/bamfdaemon
+ 0.0 [kworker/2:2]
+ 0.0 /usr/lib/ibus/ibus-engine-simple
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-keyboard-service --use-gtk
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-messages/indicator-messages-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-bluetooth/indicator-bluetooth-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-power/indicator-power-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-datetime/indicator-datetime-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-sound/indicator-sound-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-printers/indicator-printers-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-session/indicator-session-service
+ 0.0 /usr/lib/arm-linux-gnueabihf/indicator-application/indicator-application-service
+ 0.0 /usr/lib/evolution/evolution-source-registry
+ 0.0 /usr/lib/dconf/dconf-service
+ 0.0 /usr/bin/pulseaudio --start --log-target=syslog
+ 0.0 /usr/lib/evolution/evolution-calendar-factory
+ 0.0 /usr/lib/arm-linux-gnueabihf/notify-osd
+ 2.2 compiz
+ 0.0 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ 0.0 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ 0.0 nm-applet
+ 0.3 nautilus -n
+ 0.0 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+ 0.0 /usr/lib/udisks2/udisksd --no-debug
+ 0.0 /usr/lib/arm-linux-gnueabihf/gconf/gconfd-2
+ 0.0 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ 0.0 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ 0.0 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ 0.0 /usr/lib/gvfs/gvfsd-trash --spawner :1.8 /org/gtk/gvfs/exec_spaw/0
+ 0.0 /usr/lib/gvfs/gvfsd-burn --spawner :1.8 /org/gtk/gvfs/exec_spaw/1
+ 0.1 /usr/lib/arm-linux-gnueabihf/unity-scope-home/unity-scope-home
+ 0.0 [kworker/u8:3]
+ 0.2 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ 0.0 /usr/lib/arm-linux-gnueabihf/unity-lens-files/unity-files-daemon
+ 0.0 /usr/bin/zeitgeist-daemon
+ 0.0 /usr/lib/arm-linux-gnueabihf/zeitgeist-fts
+ 0.0 zeitgeist-datahub
+ 0.0 /bin/cat
+ 0.0 telepathy-indicator
+ 0.4 gnome-terminal
+ 0.0 /usr/lib/telepathy/mission-control-5
+ 0.0 gnome-pty-helper
+ 0.0 bash
+ 0.2 [kworker/0:2]
+ 0.0 update-notifier
+ 0.0 /usr/lib/arm-linux-gnueabihf/deja-dup/deja-dup-monitor
+ 0.0 [kworker/0:0]
+ 0.0 [kworker/u8:0]
+ 0.0 /bin/sh /home/ubuntu/report_ip_to_host.sh
+ 0.0 /bin/nc 10.0.2.15 33338
+ 0.0 [kworker/0:1]
+ 0.0 /bin/sh /home/ubuntu/report_ip_to_host.sh
+ 0.0 /bin/nc 10.0.2.15 33338
+ 0.0 ps -eo pcpu,args
